@@ -135,10 +135,7 @@ class TesseractOcrSampleState extends State<TesseractOcrSample> {
         ],
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          runFilePiker();
-          // _ocr("");
-        },
+        onPressed: runFilePiker,
         tooltip: 'OCR',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
